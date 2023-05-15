@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    //set absolute path
+    "baseUrl": "",
+    "paths": {
+      "@/config/*": ["src/config/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/layouts/*": ["src/ui/layouts/*"],
+      "@/features/*": ["src/ui/features/*"],
+      "@/partials/*": ["src/ui/partials/*"],
+      "@/services/*": ["src/services/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/constants/*": ["src/constants/*"],
+      "@/contexts/*": ["src/contexts/*"],
+      "@/guards/*": ["src/guards/*"],
+      "@/store/*": ["src/store/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/models/*": ["src/models/*"],
+      "@/types/*": ["src/types/*"],
+      "@/styles/*": ["src/styles/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "*.js",
+    "src/features/Trade/Tradingview/index.jsx",
+    "src/contexts/Table",
+    "jest.config.jsa",
+    "jest.config.jsa",
+    "src/features/Header/LoginForm/LoginForm.spec.tsx.tsx",
+    ".husky/config/next-i18next.config.js",
+    ".husky/config/next-i18next.config.js"
+  ],
+  "exclude": ["node_modules"],
+  "strictNullChecks": "true"
+}

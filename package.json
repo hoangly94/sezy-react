@@ -1,0 +1,15 @@
+{
+  "name": "sezy-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sezy-tech/sezy-react.git",
+  "author": "Hoang Ly <lthtv8@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "builder"
+  ],
+  "scripts":{
+    "builder:dev": "yarn workspace builder dev"
+  }
+}
